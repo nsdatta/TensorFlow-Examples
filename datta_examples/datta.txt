@@ -1,1 +1,181 @@
-Trial to add file/folder
+    1  python
+    2  cd 
+    3  cd ~/
+    4  open 
+    5  nano
+    6  who am i
+    7  whoami
+    8  exit
+    9  clear
+   10  ipython
+   11  cd ~/
+   12  ls
+   13  cd src/
+   14  ls
+   15  cd tensorflow_cpu/
+   16  ls
+   17  cd tensorflow/
+   18  ls
+   19  cd examples/
+   20  ls
+   21  clear
+   22  ls
+   23  cd tutorials/
+   24  ls
+   25  ls -l
+   26  cd mnist/
+   27  ls
+   28  python fully_connected_feed.py 
+   29  clear
+   30  cd ~/
+   31  mkdir datta_ms
+   32  cd datta_ms/
+   33  git clone https://github.com/aymericdamien/TensorFlow-Examples
+   34  ls
+   35  git pull
+   36  cd TensorFlow-Examples/
+   37  git pull
+   38  clear
+   39  ls
+   40  cd examples/
+   41  ls
+   42  cd 1_Introduction/
+   43  ls
+   44  python helloworld.py 
+   45  clear
+   46  ls
+   47  cd ~/
+   48  ls
+   49  ls /mnt/
+   50  ls
+   51  cd /mnt/
+   52  ls
+   53  aws s3 sync s3://http://santo│····························································································································································
+   54  cd ~/
+   55  mkdir image_data
+   56  cd image_data/
+   57  pwd
+   58  aws s3 sync s3://santoshandsons.s3-website-ap-northeast-1.amazonaws.com    /home/ec2-user/image_data/tmp/
+   59  wget http://santoshandsons.s3-website-ap-northeast-1.amazonaws.com
+   60  wget http://santoshandsons.s3-website-ap-northeast-1.amazonaws.com/Car_Images
+   61  ping santoshandsons.s3-website-ap-northeast-1.amazonaws.com
+   62  wget santoshandsons.s3-website-ap-northeast-1.amazonaws.com/Car_Images
+   63  ping santoshandsons.s3-website-ap-northeast-1.amazonaws.com
+   64  clear
+   65  ls
+   66  cd ~/
+   67  ls
+   68  cd image_data/
+   69  ls
+   70  cd tmp/
+   71  ls
+   72  cd ..
+   73  cd /tmp/p
+   74  cd /tmp/
+   75  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/n02958343_10008.JPEG 
+   76  ls
+   77  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/*
+   78  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/*
+   79  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/
+   80  ls
+   81  cat index.html 
+   82  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/*
+   83  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/*
+   84  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/n02958343_10010.JPEG
+   85  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/*.JPEG
+   86  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/n02958343_*.JPEG
+   87  wget  https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/n*.JPEG
+   88  aws s3 cp s3://https://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/* /tmp
+   89  aws s3 cp s3://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/* /tmp
+   90  aws s3 sync  s3://s3-ap-northeast-1.amazonaws.com/santoshandsons/Car_Images/* /tmp
+   91  cd ~/
+   92  ls
+   93  cd image_data/
+   94  ls
+   95  rm tmp/
+   96  ls
+   97  mkdir Car_Images
+   98  ls 
+   99  cd Car_Images/
+  100  ls
+  101  cd Car_Images/
+  102  ls
+  103  ls -l
+  104  ls -l | wc 
+  105  ls | wc 
+  106  ls
+  107  cd ..
+  108  tree
+  109  cd ..
+  110  ls
+  111  rm -rf Car_Images/ tmp/
+  112  ls
+  113  cd Car_Images 
+  114  ls
+  115  cd Car_Images 
+  116  ls
+  117  mv Car_Images Car_Images.zip
+  118  ls
+  119  tar -cvf Car_Images.zip 
+  120  tar -xvf Car_Images.zip 
+  121  ls
+  122  rm -rf Car_Images.zip 
+  123  ls
+  124  cd Car_Images/
+  125  ls
+  126  ls | wc 
+  127  ls -l| wc 
+  128  ls -l
+  129  ls -a
+  130  ls -lh
+  131  ls | wc 
+  132  clear
+  133  ls | wc 
+  134  watch ls -l | wc
+  135  watch ls -l 
+  136  watch `ls -l | wc` 
+  137  watch `ls -l | wc -l` 
+  138  watch `ls | wc -l` 
+  139  ls | wc 
+  140  let it transfer 
+  141  ping me once oota done
+  142  ls | wc 
+  143  clear
+  144  cd ~/
+  145  ls
+  146  cd datta_ms/
+  147  ls
+  148  rm -rf TensorFlow-Examples/
+  149  clear
+  150  git clone https://github.com/nsdatta/TensorFlow-Examples.git
+  151  ls
+  152  cd TensorFlow-Examples/
+  153  ls
+  154  touch datta.txt
+  155  vi datta.txt 
+  156  git status
+  157  git add datta.txt 
+  158  git status
+  159  mkdir datta_examples
+  160  git status
+  161  git remvoew datta.txt 
+  162  git remove datta.txt 
+  163  git rm datta.txt 
+  164  git rm datta.txt -f
+  165  clear
+  166  git status
+  167  ls -l
+  168  cd datta_examples/
+  169  vi datta.txt
+  170  git status
+  171  ls -l
+  172  git add datta.txt 
+  173  git status
+  174  git commit -a
+  175  git log
+  176  git push origin master
+  177  clear
+  178  ls -l
+  179  history\
+  180  history
+  181  history > datta.txt 
